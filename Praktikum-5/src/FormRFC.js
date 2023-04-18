@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { View, SafeAreaView, Image, StyleSheet, StatusBar, Platform, Text, TextInput } from 'react-native';
 
-const FormRFC = () => {
+const FormRFC = ({ navigation }) => {
     const [title, setTitle] = useState("IBI Kesatuan RFC");
     const [subTitle, setSubTitle] = useState("Bogor Indonesia");
     return (
